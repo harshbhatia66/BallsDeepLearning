@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/harshbhatia/Documents/nanoGPT/train.py", line 259, in <module>
+    losses = estimate_loss()
+  File "/Users/harshbhatia/Documents/nanoGPT/env/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/Users/harshbhatia/Documents/nanoGPT/train.py", line 220, in estimate_loss
+    losses[k] = loss.item()
+KeyboardInterrupt

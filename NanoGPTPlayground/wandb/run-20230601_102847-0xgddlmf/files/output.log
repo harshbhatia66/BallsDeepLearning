@@ -1,0 +1,28 @@
+
+step 0: train loss 4.0780, val loss 4.0693
+iter 0: loss 4.3622, time 79309.08ms, mfu -100.00%
+iter 1: loss 3.9497, time 58658.14ms, mfu -100.00%
+Traceback (most recent call last):
+  File "/Users/harshbhatia/Documents/nanoGPT/train.py", line 295, in <module>
+    logits, loss = model(X, Y)
+  File "/Users/harshbhatia/Documents/nanoGPT/env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1502, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/harshbhatia/Documents/nanoGPT/env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/harshbhatia/Documents/nanoGPT/model.py", line 188, in forward
+    x = block(x)
+  File "/Users/harshbhatia/Documents/nanoGPT/env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1502, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/harshbhatia/Documents/nanoGPT/env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/harshbhatia/Documents/nanoGPT/model.py", line 112, in forward
+    x = x + self.mlp(self.ln_2(x))
+  File "/Users/harshbhatia/Documents/nanoGPT/env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1502, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/harshbhatia/Documents/nanoGPT/env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/harshbhatia/Documents/nanoGPT/model.py", line 35, in forward
+    return F.layer_norm(input, self.weight.shape, self.weight, self.bias, 1e-5)
+  File "/Users/harshbhatia/Documents/nanoGPT/env/lib/python3.9/site-packages/torch/nn/functional.py", line 2548, in layer_norm
+    return torch.layer_norm(input, normalized_shape, weight, bias, eps, torch.backends.cudnn.enabled)
+KeyboardInterrupt

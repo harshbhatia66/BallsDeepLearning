@@ -1,0 +1,11 @@
+# Exclude the "env" folder
+env
+
+# Exclude the output model folders
+NanoGPTPlayground/out
+
+# Ignore files
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc

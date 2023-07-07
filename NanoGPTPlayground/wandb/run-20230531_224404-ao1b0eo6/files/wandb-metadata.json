@@ -1,0 +1,38 @@
+{
+    "os": "macOS-13.2.1-arm64-arm-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2023-05-31T12:44:04.857833",
+    "startedAt": "2023-05-31T12:44:04.228332",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "config/finetune_charlie.py",
+        "--device=mps",
+        "--compile=False"
+    ],
+    "state": "running",
+    "program": "/Users/harshbhatia/Documents/nanoGPT/train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/karpathy/nanoGPT.git",
+        "commit": "7fe4a099ad2a4654f96a51c0736ecf347149c34c"
+    },
+    "email": null,
+    "root": "/Users/harshbhatia/Documents/nanoGPT",
+    "host": "harshs-mac-mini.lan",
+    "username": "harshbhatia",
+    "executable": "/Users/harshbhatia/Documents/nanoGPT/env/bin/python",
+    "cpu_count": 12,
+    "cpu_count_logical": 12,
+    "disk": {
+        "total": 460.4317207336426,
+        "used": 11.961982727050781
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 32.0
+    }
+}

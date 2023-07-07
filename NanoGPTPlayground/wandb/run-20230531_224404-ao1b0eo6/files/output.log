@@ -1,0 +1,57 @@
+
+step 0: train loss 4.0594, val loss 4.0923
+iter 0: loss 4.3917, time 17551.79ms, mfu -100.00%
+iter 1: loss 4.0198, time 13192.04ms, mfu -100.00%
+iter 2: loss 3.6208, time 13285.23ms, mfu -100.00%
+iter 3: loss 3.7444, time 13239.96ms, mfu -100.00%
+iter 4: loss 3.5432, time 13229.47ms, mfu -100.00%
+iter 5: loss 3.4876, time 13291.94ms, mfu 0.61%
+iter 6: loss 3.3643, time 13280.10ms, mfu 0.61%
+iter 7: loss 3.2851, time 13309.21ms, mfu 0.61%
+iter 8: loss 3.2146, time 13139.01ms, mfu 0.61%
+iter 9: loss 3.2982, time 13132.48ms, mfu 0.61%
+step 10: train loss 2.9917, val loss 2.9985
+saving checkpoint to out-charlie_v2
+iter 10: loss 3.2776, time 18560.91ms, mfu 0.59%
+iter 11: loss 2.9903, time 13128.70ms, mfu 0.59%
+iter 12: loss 3.1182, time 13131.52ms, mfu 0.60%
+iter 13: loss 3.0772, time 13134.29ms, mfu 0.60%
+iter 14: loss 3.1846, time 13137.88ms, mfu 0.60%
+iter 15: loss 3.0772, time 13132.70ms, mfu 0.60%
+iter 16: loss 3.0267, time 13126.80ms, mfu 0.60%
+iter 17: loss 2.7995, time 13127.81ms, mfu 0.60%
+iter 18: loss 2.8926, time 13142.66ms, mfu 0.61%
+iter 19: loss 2.9774, time 13135.06ms, mfu 0.61%
+step 20: train loss 2.8124, val loss 2.8363
+saving checkpoint to out-charlie_v2
+iter 20: loss 3.0127, time 18708.73ms, mfu 0.59%
+iter 21: loss 2.9250, time 13119.36ms, mfu 0.59%
+iter 22: loss 2.8660, time 13124.56ms, mfu 0.59%
+iter 23: loss 2.9820, time 13129.32ms, mfu 0.60%
+iter 24: loss 2.8545, time 13130.63ms, mfu 0.60%
+iter 25: loss 2.7959, time 13136.01ms, mfu 0.60%
+iter 26: loss 3.0538, time 13129.91ms, mfu 0.60%
+iter 27: loss 2.8891, time 13150.07ms, mfu 0.60%
+iter 28: loss 2.7849, time 13130.34ms, mfu 0.60%
+iter 29: loss 2.7189, time 13126.35ms, mfu 0.61%
+step 30: train loss 2.6435, val loss 2.6539
+saving checkpoint to out-charlie_v2
+iter 30: loss 2.7916, time 18571.50ms, mfu 0.59%
+iter 31: loss 2.8053, time 13142.68ms, mfu 0.59%
+iter 32: loss 2.7593, time 13130.91ms, mfu 0.59%
+iter 33: loss 2.7458, time 13152.09ms, mfu 0.60%
+iter 34: loss 2.6523, time 13173.91ms, mfu 0.60%
+iter 35: loss 2.8180, time 13233.94ms, mfu 0.60%
+iter 36: loss 2.5987, time 13333.54ms, mfu 0.60%
+iter 37: loss 2.6999, time 13243.29ms, mfu 0.60%
+iter 38: loss 2.6410, time 13278.79ms, mfu 0.60%
+iter 39: loss 2.8646, time 13123.62ms, mfu 0.60%
+step 40: train loss 2.4922, val loss 2.5035
+saving checkpoint to out-charlie_v2
+iter 40: loss 2.7140, time 18600.10ms, mfu 0.59%
+Traceback (most recent call last):
+  File "/Users/harshbhatia/Documents/nanoGPT/train.py", line 298, in <module>
+    X, Y = get_batch('train')
+  File "/Users/harshbhatia/Documents/nanoGPT/train.py", line 125, in get_batch
+    x, y = x.to(device), y.to(device)
+KeyboardInterrupt

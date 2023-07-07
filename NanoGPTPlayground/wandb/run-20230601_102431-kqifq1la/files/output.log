@@ -1,0 +1,32 @@
+
+step 0: train loss 4.0907, val loss 4.1057
+iter 0: loss 4.2770, time 29541.69ms, mfu -100.00%
+iter 1: loss 3.9169, time 17233.53ms, mfu -100.00%
+iter 2: loss 3.5148, time 17155.26ms, mfu -100.00%
+iter 3: loss 3.1454, time 17047.15ms, mfu -100.00%
+iter 4: loss 2.8019, time 16944.91ms, mfu -100.00%
+iter 5: loss 2.9131, time 16956.99ms, mfu 0.74%
+iter 6: loss 2.7933, time 17100.97ms, mfu 0.74%
+iter 7: loss 2.7035, time 17063.06ms, mfu 0.74%
+Traceback (most recent call last):
+  File "/Users/harshbhatia/Documents/nanoGPT/train.py", line 295, in <module>
+    logits, loss = model(X, Y)
+  File "/Users/harshbhatia/Documents/nanoGPT/env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1502, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/harshbhatia/Documents/nanoGPT/env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/harshbhatia/Documents/nanoGPT/model.py", line 188, in forward
+    x = block(x)
+  File "/Users/harshbhatia/Documents/nanoGPT/env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1502, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/harshbhatia/Documents/nanoGPT/env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/harshbhatia/Documents/nanoGPT/model.py", line 111, in forward
+    x = x + self.attn(self.ln_1(x))
+  File "/Users/harshbhatia/Documents/nanoGPT/env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1502, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/harshbhatia/Documents/nanoGPT/env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/harshbhatia/Documents/nanoGPT/model.py", line 72, in forward
+    y = torch.nn.functional.scaled_dot_product_attention(q, k, v, attn_mask=None, dropout_p=self.dropout if self.training else 0, is_causal=True)
+KeyboardInterrupt

@@ -1,0 +1,28 @@
+
+step 0: train loss 4.0907, val loss 4.1057
+iter 0: loss 4.2770, time 28898.19ms, mfu -100.00%
+iter 1: loss 3.9169, time 17076.31ms, mfu -100.00%
+iter 2: loss 3.5148, time 17057.81ms, mfu -100.00%
+iter 3: loss 3.1454, time 17088.42ms, mfu -100.00%
+iter 4: loss 2.8019, time 17022.55ms, mfu -100.00%
+iter 5: loss 2.9131, time 17020.89ms, mfu 0.74%
+iter 6: loss 2.7933, time 17107.52ms, mfu 0.74%
+iter 7: loss 2.7035, time 17177.47ms, mfu 0.74%
+iter 8: loss 2.7562, time 17029.56ms, mfu 0.74%
+iter 9: loss 2.7406, time 17056.41ms, mfu 0.74%
+step 10: train loss 2.5286, val loss 2.5385
+saving checkpoint to out-charlie_v3
+iter 10: loss 2.4182, time 39905.22ms, mfu 0.69%
+iter 11: loss 2.3992, time 17184.64ms, mfu 0.70%
+iter 12: loss 2.8911, time 17043.66ms, mfu 0.70%
+iter 13: loss 2.4719, time 17075.28ms, mfu 0.70%
+iter 14: loss 2.2910, time 17048.46ms, mfu 0.71%
+iter 15: loss 2.4914, time 17026.58ms, mfu 0.71%
+iter 16: loss 2.2237, time 17010.08ms, mfu 0.71%
+iter 17: loss 2.0608, time 17082.89ms, mfu 0.72%
+Traceback (most recent call last):
+  File "/Users/harshbhatia/Documents/nanoGPT/train.py", line 298, in <module>
+    X, Y = get_batch('train')
+  File "/Users/harshbhatia/Documents/nanoGPT/train.py", line 125, in get_batch
+    x, y = x.to(device), y.to(device)
+KeyboardInterrupt

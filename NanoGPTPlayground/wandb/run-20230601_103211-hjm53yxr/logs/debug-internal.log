@@ -1,0 +1,337 @@
+2023-06-01 10:32:11,599 INFO    StreamThr :28704 [internal.py:wandb_internal():86] W&B internal server running at pid: 28704, started at: 2023-06-01 10:32:11.598619
+2023-06-01 10:32:11,599 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status
+2023-06-01 10:32:11,600 INFO    WriterThread:28704 [datastore.py:open_for_write():85] open: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/run-hjm53yxr.wandb
+2023-06-01 10:32:11,601 DEBUG   SenderThread:28704 [sender.py:send():375] send: header
+2023-06-01 10:32:11,627 DEBUG   SenderThread:28704 [sender.py:send():375] send: run
+2023-06-01 10:32:12,183 INFO    SenderThread:28704 [dir_watcher.py:__init__():219] watching files in: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files
+2023-06-01 10:32:12,184 INFO    SenderThread:28704 [sender.py:_start_run_threads():1124] run started: hjm53yxr with start time 1685579531.596415
+2023-06-01 10:32:12,184 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: summary_record
+2023-06-01 10:32:12,184 INFO    SenderThread:28704 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-01 10:32:12,188 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: check_version
+2023-06-01 10:32:12,188 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: check_version
+2023-06-01 10:32:12,250 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: run_start
+2023-06-01 10:32:12,256 DEBUG   HandlerThread:28704 [system_info.py:__init__():31] System info init
+2023-06-01 10:32:12,256 DEBUG   HandlerThread:28704 [system_info.py:__init__():46] System info init done
+2023-06-01 10:32:12,256 INFO    HandlerThread:28704 [system_monitor.py:start():181] Starting system monitor
+2023-06-01 10:32:12,257 INFO    SystemMonitor:28704 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-06-01 10:32:12,257 INFO    HandlerThread:28704 [system_monitor.py:probe():201] Collecting system info
+2023-06-01 10:32:12,257 DEBUG   HandlerThread:28704 [system_info.py:probe():195] Probing system
+2023-06-01 10:32:12,257 INFO    SystemMonitor:28704 [interfaces.py:start():190] Started cpu monitoring
+2023-06-01 10:32:12,258 INFO    SystemMonitor:28704 [interfaces.py:start():190] Started disk monitoring
+2023-06-01 10:32:12,258 INFO    SystemMonitor:28704 [interfaces.py:start():190] Started gpuapple monitoring
+2023-06-01 10:32:12,261 INFO    SystemMonitor:28704 [interfaces.py:start():190] Started memory monitoring
+2023-06-01 10:32:12,262 INFO    SystemMonitor:28704 [interfaces.py:start():190] Started network monitoring
+2023-06-01 10:32:12,263 DEBUG   HandlerThread:28704 [system_info.py:_probe_git():180] Probing git
+2023-06-01 10:32:12,285 DEBUG   HandlerThread:28704 [system_info.py:_probe_git():188] Probing git done
+2023-06-01 10:32:12,286 DEBUG   HandlerThread:28704 [system_info.py:probe():240] Probing system done
+2023-06-01 10:32:12,286 DEBUG   HandlerThread:28704 [system_monitor.py:probe():210] {'os': 'macOS-13.2.1-arm64-arm-64bit', 'python': '3.9.13', 'heartbeatAt': '2023-06-01T00:32:12.257840', 'startedAt': '2023-06-01T00:32:11.585934', 'docker': None, 'cuda': None, 'args': ('config/finetune_charlie.py', '--device=mps', '--compile=False'), 'state': 'running', 'program': '/Users/harshbhatia/Documents/nanoGPT/train.py', 'codePath': 'train.py', 'git': {'remote': 'https://github.com/karpathy/nanoGPT.git', 'commit': '7fe4a099ad2a4654f96a51c0736ecf347149c34c'}, 'email': None, 'root': '/Users/harshbhatia/Documents/nanoGPT', 'host': 'harshs-mac-mini.lan', 'username': 'harshbhatia', 'executable': '/Users/harshbhatia/Documents/nanoGPT/env/bin/python', 'cpu_count': 12, 'cpu_count_logical': 12, 'disk': {'total': 460.4317207336426, 'used': 11.961982727050781}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 32.0}}
+2023-06-01 10:32:12,286 INFO    HandlerThread:28704 [system_monitor.py:probe():211] Finished collecting system info
+2023-06-01 10:32:12,286 INFO    HandlerThread:28704 [system_monitor.py:probe():214] Publishing system info
+2023-06-01 10:32:12,286 DEBUG   HandlerThread:28704 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-01 10:32:12,286 DEBUG   HandlerThread:28704 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-01 10:32:12,286 INFO    HandlerThread:28704 [system_monitor.py:probe():216] Finished publishing system info
+2023-06-01 10:32:12,288 DEBUG   SenderThread:28704 [sender.py:send():375] send: files
+2023-06-01 10:32:12,289 INFO    SenderThread:28704 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-06-01 10:32:12,293 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:32:12,293 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:32:12,516 DEBUG   SenderThread:28704 [sender.py:send():375] send: telemetry
+2023-06-01 10:32:13,088 INFO    wandb-upload_0:28704 [upload_job.py:push():137] Uploaded file /var/folders/k1/4qb6jnb96t1bh08rs_7fn_b00000gn/T/tmp5q1m3nthwandb/lz6yc13r-wandb-metadata.json
+2023-06-01 10:32:13,190 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/wandb-metadata.json
+2023-06-01 10:32:13,190 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/requirements.txt
+2023-06-01 10:32:13,190 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/wandb-summary.json
+2023-06-01 10:32:17,539 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:32:22,563 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:32:23,773 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-01 10:32:23,774 DEBUG   SenderThread:28704 [sender.py:send():375] send: history
+2023-06-01 10:32:23,775 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: summary_record
+2023-06-01 10:32:23,776 INFO    SenderThread:28704 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-01 10:32:24,245 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/wandb-summary.json
+2023-06-01 10:32:24,245 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:32:26,251 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:32:27,297 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:32:27,297 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:32:28,512 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:32:33,535 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:32:38,554 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:32:42,301 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:32:42,303 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:32:42,334 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:32:44,517 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:32:45,346 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/config.yaml
+2023-06-01 10:32:49,863 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:32:54,889 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:32:57,307 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:32:57,307 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:33:00,281 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:33:00,413 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:33:05,304 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:33:10,326 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:33:12,268 DEBUG   SystemMonitor:28704 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-06-01 10:33:12,269 DEBUG   SenderThread:28704 [sender.py:send():375] send: telemetry
+2023-06-01 10:33:12,269 DEBUG   SenderThread:28704 [sender.py:send():375] send: stats
+2023-06-01 10:33:12,312 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:33:12,312 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:33:15,331 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:33:16,492 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/config.yaml
+2023-06-01 10:33:16,492 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:33:20,604 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:33:25,629 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:33:27,312 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:33:27,313 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:33:31,531 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:33:34,575 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:33:37,438 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:33:42,270 DEBUG   SenderThread:28704 [sender.py:send():375] send: stats
+2023-06-01 10:33:42,317 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:33:42,317 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:33:42,547 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:33:47,568 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:33:50,654 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:33:53,451 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:33:57,322 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:33:57,323 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:33:58,534 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:34:03,555 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:34:08,737 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:34:09,474 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:34:12,273 DEBUG   SenderThread:28704 [sender.py:send():375] send: stats
+2023-06-01 10:34:12,325 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:34:12,325 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:34:14,546 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:34:19,564 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:34:24,569 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:34:24,813 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:34:27,329 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:34:27,330 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:34:32,349 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-01 10:34:34,339 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:34:39,353 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:34:42,276 DEBUG   SenderThread:28704 [sender.py:send():375] send: stats
+2023-06-01 10:34:42,330 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-01 10:34:42,334 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:34:42,334 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:34:42,886 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:34:44,558 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:34:49,582 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:34:54,606 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:34:57,334 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-01 10:34:57,337 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:34:57,338 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:34:58,962 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:34:59,785 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:35:04,811 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:35:09,829 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:35:12,280 DEBUG   SenderThread:28704 [sender.py:send():375] send: stats
+2023-06-01 10:35:12,337 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-01 10:35:12,342 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:35:12,343 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:35:14,832 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:35:17,056 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:35:19,853 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:35:24,878 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:35:26,044 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-01 10:35:26,045 DEBUG   SenderThread:28704 [sender.py:send():375] send: history
+2023-06-01 10:35:26,045 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: summary_record
+2023-06-01 10:35:26,047 INFO    SenderThread:28704 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-01 10:35:26,099 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/wandb-summary.json
+2023-06-01 10:35:27,404 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-01 10:35:27,870 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:35:27,870 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:35:29,115 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:35:30,079 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:35:35,098 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:35:40,122 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:35:42,284 DEBUG   SenderThread:28704 [sender.py:send():375] send: stats
+2023-06-01 10:35:42,371 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-01 10:35:42,375 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:35:42,375 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:35:45,594 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:35:50,616 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:35:55,742 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:35:57,255 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:35:57,376 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-01 10:35:57,380 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:35:57,380 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:36:01,606 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:36:06,622 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:36:11,646 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:36:12,286 DEBUG   SenderThread:28704 [sender.py:send():375] send: stats
+2023-06-01 10:36:12,381 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-01 10:36:12,385 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:36:12,385 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:36:14,338 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:36:17,612 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:36:22,633 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:36:27,387 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-01 10:36:27,388 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:36:27,388 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:36:28,590 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:36:30,413 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:36:33,988 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:36:39,014 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:36:42,288 DEBUG   SenderThread:28704 [sender.py:send():375] send: stats
+2023-06-01 10:36:42,386 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-01 10:36:42,387 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:36:42,387 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:36:44,587 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:36:46,497 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:36:50,057 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:36:55,082 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:36:57,392 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-01 10:36:57,392 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:36:57,392 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:37:00,606 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:37:04,589 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:37:06,105 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:37:11,131 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:37:12,291 DEBUG   SenderThread:28704 [sender.py:send():375] send: stats
+2023-06-01 10:37:12,397 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-01 10:37:12,397 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:37:12,397 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:37:16,629 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:37:20,671 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:37:22,126 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:37:27,151 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:37:27,402 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-01 10:37:27,402 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:37:27,402 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:37:32,628 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:37:38,127 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:37:38,765 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:37:42,297 DEBUG   SenderThread:28704 [sender.py:send():375] send: stats
+2023-06-01 10:37:42,407 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-01 10:37:42,407 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 10:37:42,407 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: stop_status
+2023-06-01 10:37:43,618 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:37:48,640 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:37:53,666 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:37:54,366 DEBUG   SenderThread:28704 [sender.py:send():375] send: exit
+2023-06-01 10:37:54,366 INFO    SenderThread:28704 [sender.py:send_exit():598] handling exit code: 255
+2023-06-01 10:37:54,366 INFO    SenderThread:28704 [sender.py:send_exit():600] handling runtime: 342
+2023-06-01 10:37:54,366 INFO    SenderThread:28704 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-01 10:37:54,367 INFO    SenderThread:28704 [sender.py:send_exit():606] send defer
+2023-06-01 10:37:54,367 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 10:37:54,367 INFO    HandlerThread:28704 [handler.py:handle_request_defer():170] handle defer: 0
+2023-06-01 10:37:54,367 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: defer
+2023-06-01 10:37:54,367 INFO    SenderThread:28704 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-06-01 10:37:54,367 INFO    SenderThread:28704 [sender.py:transition_state():626] send defer: 1
+2023-06-01 10:37:54,367 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 10:37:54,367 INFO    HandlerThread:28704 [handler.py:handle_request_defer():170] handle defer: 1
+2023-06-01 10:37:54,367 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: defer
+2023-06-01 10:37:54,367 INFO    SenderThread:28704 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-06-01 10:37:54,367 INFO    SenderThread:28704 [sender.py:transition_state():626] send defer: 2
+2023-06-01 10:37:54,367 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 10:37:54,367 INFO    HandlerThread:28704 [handler.py:handle_request_defer():170] handle defer: 2
+2023-06-01 10:37:54,367 INFO    HandlerThread:28704 [system_monitor.py:finish():190] Stopping system monitor
+2023-06-01 10:37:54,367 DEBUG   SystemMonitor:28704 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-06-01 10:37:54,367 DEBUG   SystemMonitor:28704 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-06-01 10:37:54,368 INFO    HandlerThread:28704 [interfaces.py:finish():202] Joined cpu monitor
+2023-06-01 10:37:54,368 INFO    HandlerThread:28704 [interfaces.py:finish():202] Joined disk monitor
+2023-06-01 10:37:54,368 INFO    HandlerThread:28704 [interfaces.py:finish():202] Joined gpuapple monitor
+2023-06-01 10:37:54,368 INFO    HandlerThread:28704 [interfaces.py:finish():202] Joined memory monitor
+2023-06-01 10:37:54,368 INFO    HandlerThread:28704 [interfaces.py:finish():202] Joined network monitor
+2023-06-01 10:37:54,368 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: defer
+2023-06-01 10:37:54,368 INFO    SenderThread:28704 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-06-01 10:37:54,368 INFO    SenderThread:28704 [sender.py:transition_state():626] send defer: 3
+2023-06-01 10:37:54,368 DEBUG   SenderThread:28704 [sender.py:send():375] send: stats
+2023-06-01 10:37:54,368 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 10:37:54,368 INFO    HandlerThread:28704 [handler.py:handle_request_defer():170] handle defer: 3
+2023-06-01 10:37:54,369 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: defer
+2023-06-01 10:37:54,369 INFO    SenderThread:28704 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-06-01 10:37:54,369 INFO    SenderThread:28704 [sender.py:transition_state():626] send defer: 4
+2023-06-01 10:37:54,369 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 10:37:54,369 INFO    HandlerThread:28704 [handler.py:handle_request_defer():170] handle defer: 4
+2023-06-01 10:37:54,369 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: defer
+2023-06-01 10:37:54,369 INFO    SenderThread:28704 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-06-01 10:37:54,369 INFO    SenderThread:28704 [sender.py:transition_state():626] send defer: 5
+2023-06-01 10:37:54,369 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 10:37:54,369 INFO    HandlerThread:28704 [handler.py:handle_request_defer():170] handle defer: 5
+2023-06-01 10:37:54,369 DEBUG   SenderThread:28704 [sender.py:send():375] send: summary
+2023-06-01 10:37:54,369 INFO    SenderThread:28704 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-01 10:37:54,369 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: defer
+2023-06-01 10:37:54,369 INFO    SenderThread:28704 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-06-01 10:37:54,369 INFO    SenderThread:28704 [sender.py:transition_state():626] send defer: 6
+2023-06-01 10:37:54,370 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 10:37:54,370 INFO    HandlerThread:28704 [handler.py:handle_request_defer():170] handle defer: 6
+2023-06-01 10:37:54,370 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: defer
+2023-06-01 10:37:54,370 INFO    SenderThread:28704 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-06-01 10:37:54,370 INFO    SenderThread:28704 [sender.py:transition_state():626] send defer: 7
+2023-06-01 10:37:54,370 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:37:54,370 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 10:37:54,370 INFO    HandlerThread:28704 [handler.py:handle_request_defer():170] handle defer: 7
+2023-06-01 10:37:54,370 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: defer
+2023-06-01 10:37:54,370 INFO    SenderThread:28704 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-06-01 10:37:54,848 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:37:54,848 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/wandb-summary.json
+2023-06-01 10:37:55,367 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-01 10:37:56,368 INFO    SenderThread:28704 [sender.py:transition_state():626] send defer: 8
+2023-06-01 10:37:56,368 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: poll_exit
+2023-06-01 10:37:56,369 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 10:37:56,369 INFO    HandlerThread:28704 [handler.py:handle_request_defer():170] handle defer: 8
+2023-06-01 10:37:56,369 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: defer
+2023-06-01 10:37:56,369 INFO    SenderThread:28704 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-06-01 10:37:56,376 INFO    SenderThread:28704 [sender.py:transition_state():626] send defer: 9
+2023-06-01 10:37:56,376 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 10:37:56,376 DEBUG   SenderThread:28704 [sender.py:send():375] send: artifact
+2023-06-01 10:37:56,376 INFO    HandlerThread:28704 [handler.py:handle_request_defer():170] handle defer: 9
+2023-06-01 10:37:56,859 INFO    Thread-12 :28704 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:37:57,475 INFO    SenderThread:28704 [sender.py:send_artifact():1474] sent artifact job-https___github.com_karpathy_nanoGPT.git_train.py - {'id': 'QXJ0aWZhY3Q6NDcyOTEwMzI4', 'digest': '9500d69ecb80dc408cfc7b37ba0c68eb', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_karpathy_nanoGPT.git_train.py', 'alias': 'latest'}, {'artifactCollectionName': 'job-https___github.com_karpathy_nanoGPT.git_train.py', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjczMzQ0ODgy', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDcyOTExMDI1', 'versionIndex': 1}}, 'version': 'v0'}
+2023-06-01 10:37:57,475 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: defer
+2023-06-01 10:37:57,475 INFO    SenderThread:28704 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-06-01 10:37:57,475 INFO    SenderThread:28704 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-06-01 10:37:57,860 INFO    SenderThread:28704 [dir_watcher.py:finish():395] scan: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files
+2023-06-01 10:37:57,861 INFO    SenderThread:28704 [dir_watcher.py:finish():409] scan save: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/requirements.txt requirements.txt
+2023-06-01 10:37:57,861 INFO    SenderThread:28704 [dir_watcher.py:finish():409] scan save: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log output.log
+2023-06-01 10:37:57,868 INFO    SenderThread:28704 [dir_watcher.py:finish():409] scan save: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/config.yaml config.yaml
+2023-06-01 10:37:57,872 INFO    SenderThread:28704 [dir_watcher.py:finish():409] scan save: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/wandb-summary.json wandb-summary.json
+2023-06-01 10:37:57,873 INFO    SenderThread:28704 [dir_watcher.py:finish():409] scan save: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/wandb-metadata.json wandb-metadata.json
+2023-06-01 10:37:57,873 INFO    SenderThread:28704 [sender.py:transition_state():626] send defer: 10
+2023-06-01 10:37:57,881 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 10:37:57,882 INFO    HandlerThread:28704 [handler.py:handle_request_defer():170] handle defer: 10
+2023-06-01 10:37:57,883 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: defer
+2023-06-01 10:37:57,883 INFO    SenderThread:28704 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-06-01 10:37:57,883 INFO    SenderThread:28704 [file_pusher.py:finish():167] shutting down file pusher
+2023-06-01 10:37:58,607 INFO    wandb-upload_0:28704 [upload_job.py:push():137] Uploaded file /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/requirements.txt
+2023-06-01 10:37:58,730 INFO    wandb-upload_3:28704 [upload_job.py:push():137] Uploaded file /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/wandb-summary.json
+2023-06-01 10:37:58,739 INFO    wandb-upload_2:28704 [upload_job.py:push():137] Uploaded file /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/config.yaml
+2023-06-01 10:37:58,798 INFO    wandb-upload_1:28704 [upload_job.py:push():137] Uploaded file /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/files/output.log
+2023-06-01 10:37:59,004 INFO    Thread-11 :28704 [sender.py:transition_state():626] send defer: 11
+2023-06-01 10:37:59,005 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 10:37:59,006 INFO    HandlerThread:28704 [handler.py:handle_request_defer():170] handle defer: 11
+2023-06-01 10:37:59,006 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: defer
+2023-06-01 10:37:59,006 INFO    SenderThread:28704 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-06-01 10:37:59,007 INFO    SenderThread:28704 [file_pusher.py:join():172] waiting for file pusher
+2023-06-01 10:37:59,007 INFO    SenderThread:28704 [sender.py:transition_state():626] send defer: 12
+2023-06-01 10:37:59,007 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 10:37:59,007 INFO    HandlerThread:28704 [handler.py:handle_request_defer():170] handle defer: 12
+2023-06-01 10:37:59,007 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: defer
+2023-06-01 10:37:59,008 INFO    SenderThread:28704 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-06-01 10:38:00,388 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-01 10:38:04,263 INFO    SenderThread:28704 [sender.py:transition_state():626] send defer: 13
+2023-06-01 10:38:04,264 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 10:38:04,264 INFO    HandlerThread:28704 [handler.py:handle_request_defer():170] handle defer: 13
+2023-06-01 10:38:04,264 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 10:38:04,265 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: defer
+2023-06-01 10:38:04,265 INFO    SenderThread:28704 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-06-01 10:38:04,266 INFO    SenderThread:28704 [sender.py:transition_state():626] send defer: 14
+2023-06-01 10:38:04,266 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 10:38:04,267 DEBUG   SenderThread:28704 [sender.py:send():375] send: final
+2023-06-01 10:38:04,267 INFO    HandlerThread:28704 [handler.py:handle_request_defer():170] handle defer: 14
+2023-06-01 10:38:04,267 DEBUG   SenderThread:28704 [sender.py:send():375] send: footer
+2023-06-01 10:38:04,267 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: defer
+2023-06-01 10:38:04,267 INFO    SenderThread:28704 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-06-01 10:38:04,268 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-01 10:38:04,269 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: poll_exit
+2023-06-01 10:38:04,269 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: server_info
+2023-06-01 10:38:04,270 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: get_summary
+2023-06-01 10:38:04,270 DEBUG   SenderThread:28704 [sender.py:send_request():402] send_request: server_info
+2023-06-01 10:38:04,273 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: sampled_history
+2023-06-01 10:38:04,475 INFO    MainThread:28704 [wandb_run.py:_footer_history_summary_info():3469] rendering history
+2023-06-01 10:38:04,476 INFO    MainThread:28704 [wandb_run.py:_footer_history_summary_info():3501] rendering summary
+2023-06-01 10:38:04,477 INFO    MainThread:28704 [wandb_run.py:_footer_sync_info():3428] logging synced files
+2023-06-01 10:38:04,478 DEBUG   HandlerThread:28704 [handler.py:handle_request():144] handle_request: shutdown
+2023-06-01 10:38:04,478 INFO    HandlerThread:28704 [handler.py:finish():842] shutting down handler
+2023-06-01 10:38:05,275 INFO    WriterThread:28704 [datastore.py:close():298] close: /Users/harshbhatia/Documents/nanoGPT/wandb/run-20230601_103211-hjm53yxr/run-hjm53yxr.wandb
+2023-06-01 10:38:05,480 INFO    SenderThread:28704 [sender.py:finish():1550] shutting down sender
+2023-06-01 10:38:05,480 INFO    SenderThread:28704 [file_pusher.py:finish():167] shutting down file pusher
+2023-06-01 10:38:05,480 INFO    SenderThread:28704 [file_pusher.py:join():172] waiting for file pusher
