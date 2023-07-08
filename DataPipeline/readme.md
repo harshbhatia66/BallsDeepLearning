@@ -10,3 +10,5 @@ Then we will perfrom speaker identification. This will create a verification met
 Note: Currently this will identify only one person and, we need to add capability to recognise other speakers as well.
 
 Compile the transcript dataset using this metadata - identify.py
+
+Note: Create an env using the requirements.txt file. 
